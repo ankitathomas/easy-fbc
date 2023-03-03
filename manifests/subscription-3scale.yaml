@@ -1,12 +1,12 @@
 apiVersion: operators.coreos.com/v1alpha1
 kind: Subscription
 metadata:
-  name: quay
+  name: 3scale
   namespace: operators
 spec:
-  channel: unavailable-image-upgrade  # or working-upgrade for successful upgrades
+  channel: threescale-2.12
   installPlanApproval: Manual
-  name: quay
+  name: 3scale-community-operator
   source: alex-operators
   sourceNamespace: olm # or olm
-  startingCSV: quay-operator.v3.8.3
+  startingCSV: 3scale-community-operator.v0.8.2

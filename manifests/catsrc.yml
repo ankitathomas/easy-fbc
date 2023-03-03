@@ -4,7 +4,7 @@ metadata:
   name: alex-operators
   namespace: olm # or olm
 spec:
-  image: quay.io/rh_ee_dfranz/index:testing
+  image: quay.io/ankitathomas/index:test
   displayName: Alex Operators
   priority: -100
   publisher: Alex
