@@ -1,0 +1,54 @@
+{
+  "schema": "olm.channel",
+  "name": "strimzi-0.25.x",
+  "package": "strimzi-kafka-operator",
+  "entries": [
+    {
+      "name": "strimzi-cluster-operator.v0.23.0"
+    },
+    {
+      "name": "strimzi-cluster-operator.v0.24.0",
+      "replaces": "strimzi-cluster-operator.v0.23.0"
+    },
+    {
+      "name": "strimzi-cluster-operator.v0.25.0",
+      "replaces": "strimzi-cluster-operator.v0.24.0"
+    }
+  ]
+}
+{
+  "schema": "olm.channel",
+  "name": "strimzi-0.30.x",
+  "package": "strimzi-kafka-operator",
+  "entries": [
+    {
+      "name": "strimzi-cluster-operator.v0.27.1"
+    },
+    {
+      "name": "strimzi-cluster-operator.v0.28.0",
+      "replaces": "strimzi-cluster-operator.v0.27.1"
+    },
+    {
+      "name": "strimzi-cluster-operator.v0.29.0",
+      "replaces": "strimzi-cluster-operator.v0.28.0"
+    },
+    {
+      "name": "strimzi-cluster-operator.v0.30.0",
+      "replaces": "strimzi-cluster-operator.v0.29.0"
+    }
+  ]
+}
+{
+  "schema": "olm.channel",
+  "name": "strimzi-0.32.x",
+  "package": "strimzi-kafka-operator",
+  "entries": [
+    {
+      "name": "strimzi-cluster-operator.v0.31.1"
+    },
+    {
+      "name": "strimzi-cluster-operator.v0.32.0",
+      "replaces": "strimzi-cluster-operator.v0.31.1"
+    }
+  ]
+}

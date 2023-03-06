@@ -1,0 +1,5 @@
+{
+  "schema": "olm.package",
+  "name": "camel-k",
+  "defaultChannel": "stable-1.12"
+}

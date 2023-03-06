@@ -1,0 +1,22 @@
+{
+  "schema": "olm.channel",
+  "name": "0.9.1",
+  "package": "app-director-operator",
+  "entries": [
+    {
+      "name": "app-director-operator.v0.0.1"
+    },
+    {
+      "name": "app-director-operator.v0.0.2",
+      "replaces": "app-director-operator.v0.0.1"
+    },
+    {
+      "name": "app-director-operator.v0.0.3",
+      "replaces": "app-director-operator.v0.0.2"
+    },
+    {
+      "name": "app-director-operator.v0.9.1",
+      "replaces": "app-director-operator.v0.0.3"
+    }
+  ]
+}

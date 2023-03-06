@@ -1,0 +1,5 @@
+{
+  "schema": "olm.package",
+  "name": "strimzi-kafka-operator",
+  "defaultChannel": "strimzi-0.32.x"
+}
